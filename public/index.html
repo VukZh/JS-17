@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>    
+	<script type="module" src="./leaf.js"></script>
+    <script type="module" src="./tree.js"></script>
+
+  </head>
+  <body>
+	<my-tree myarray = '
+	[{"id":1,"items":[{"id":3,"items":[]},{"id":5,"items":[]}]},{"id":2,"items":[{"id":4,"items":[]}]}]
+	' ></my-tree>
+	<p>------------------</p>
+	<my-tree myarray = '
+	[{"id":1,"items":[{"id":4,"items":[{"id":9,"items":[]},{"id":10,"items":[{"id":11,"items":[]},{"id":12,"items":[{"id":15,"items":[{"id":16,"items":[]}]}]}]}]},{"id":5,"items":[]},{"id":6,"items":[]}]},{"id":2},{"id":3,"items":[{"id":7,"items":[{"id":13,"items":[]}]},{"id":8,"items":[{"id":14,"items":[]}]}]}]
+	' ></my-tree>
+	<p>------------------</p>
+
+   </body>
+</html>
