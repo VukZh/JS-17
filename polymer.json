@@ -1,0 +1,16 @@
+{
+  "entrypoint": "index.html",
+  "shell": "tree.js",
+  "sources": [
+   "tree.js",
+   "manifest/**",
+   "package.json"
+  ],
+  "builds": [
+    { 
+      "preset": "es6-unbundled"
+    }
+  ],
+  "moduleResolution": "node",
+  "npm": true
+}

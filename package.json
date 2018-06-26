@@ -1,0 +1,13 @@
+{
+  "name": "tree-polymer3",
+  "version": "3.0.0-pre.12",
+  "main": "tree.js",
+  "scripts": {
+    "test": "polymer serve"},
+  "repository": "https://github.com/PolymerLabs/start-polymer3.git",
+  "author": "Vuk",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0-pre.12"
+  }
+}
